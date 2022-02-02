@@ -1,0 +1,1 @@
+- [List of ItemReaders and ItemWriters](https://docs.spring.io/spring-batch/docs/current/reference/html/appendix.html)
