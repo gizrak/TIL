@@ -1,2 +1,3 @@
 - [안정한 패스워드 저장](https://d2.naver.com/helloworld/318732)
 - [OpenSSl로 ROOT CA 생성 및 SSL 인증서 발급](https://www.lesstif.com/system-admin/openssl-root-ca-ssl-6979614.html)
+- [nginx에 HTTP/SSL 적용하기]
