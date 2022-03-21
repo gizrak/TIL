@@ -1,0 +1,1 @@
+- [Windows용 패키지 관리자 Chocolatey(choco) 설치 및 이용하기](https://evandde.github.io/chocolatey/)
