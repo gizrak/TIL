@@ -3,24 +3,20 @@
 [core]
   excludesfile = /Users/ted/.gitignore_global
   autocrlf = input
-[difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path =
-[mergetool "sourcetree"]
-  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
-[user]
-  name = Ted Hwang
-  email = ted@tedcode.me
+  editor = /usr/bin/vim
 [commit]
-	template = /Users/ted/.stCommitMsg
-[credential]
-  helper = osxkeychain
+  template = /Users/ted/.stCommitMsg
 [filter "lfs"]
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
+[merge]
+  branchdesc = true
+  commit = no[user]
+[user]
+  name = Ted Hwang
+  email = ted@tedcode.me
 [alias]
   co = checkout
   br = branch -vv
