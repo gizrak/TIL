@@ -32,6 +32,10 @@
 ```
 
 ### Tips
+- 브랜치 이름 변경
+  ```bash
+  git branch -m 변경전 변경후
+  ```
 - 패스워드 초기화
   ```bash
   git -c diff.mnemonicprefix=false \
