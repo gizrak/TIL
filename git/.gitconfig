@@ -1,0 +1,28 @@
+[core]
+    autocrlf = input
+    editor = /usr/bin/vim
+    excludesfile = /Users/gizrak/.gitignore_global
+[commit]
+    template = /Users/gizrak/.stCommitMsg
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[merge]
+    branchdesc = true
+    commit = no
+[alias]
+    co = checkout
+    br = branch -vv
+    ci = commit
+    st = status
+    cp = cherry-pick
+    cl = clone
+    last = log -1 HEAD
+    ll = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+    l = log --graph --oneline --decorate --date=relative
+    visual = !gitk
+[user]
+    name = gizrak
+    email = gizrak@me.com
