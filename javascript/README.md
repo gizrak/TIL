@@ -4,3 +4,4 @@
 - [JavaScript Everywhere](https://github.com/javascripteverywhere)
 - [객체를 좀 더 쉽게 병합하는, Object.assign 메서드](https://pro-self-studier.tistory.com/21)
 - [이벤트 버블링, 이벤트 캡처 그리고 이벤트 위임까지](https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/)
+- [Vanilla Javascript로 웹 컴포넌트 만들기](https://junilhwang.github.io/TIL/Javascript/Design/Vanilla-JS-Component/)
