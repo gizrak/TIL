@@ -7,3 +7,4 @@
 - [Mac에서 Docker 환경구성 및 기본 사용법](https://bblog.tistory.com/297)
 - [Docker Desktop 대탈출, multipass로 갑니다](https://jybaek.tistory.com/934)
 - [Mac에서 Docker Desktop 사용하지 않고 Docker 사용하기](https://blog.bsk.im/2021/09/07/macos-docker-without-docker-feat-minikube-ko/)
+- [Slicon M1 Mac에서 Lima로 Docker Desktop 대체 하기](https://breezymind.com/slicon-m1-mac-lima-docker-desktop-alternative/)
