@@ -29,3 +29,6 @@ $ /usr/local/opt/kafka/bin/kafka-console-consumer \
     --topic TEST_TOPIC \
     --from-beginning
 ```
+
+### 관련 정보들
+- [Logstash, Kafka를 대신할 수 있을까?](https://bae200ok.medium.com/logstash-kafka%EB%A5%BC-%EB%8C%80%EC%8B%A0%ED%95%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C-82efe97e13d9)
