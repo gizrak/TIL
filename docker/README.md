@@ -36,6 +36,7 @@ disk: "100GiB"
 ```
 
 변경된 정보로 컨테이너를 실행
+```bash
 $ limactl start default.yaml
 $ limactl ls
 NAME       STATUS     SSH                ARCH      CPUS    MEMORY    DISK      DIR
