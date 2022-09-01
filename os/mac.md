@@ -4,6 +4,7 @@
 - [맥에서 특수 문자를 입력하는 모든 방법... '하지만 더 편리한 방법이 있다면?'](https://macnews.tistory.com/1439)
 - [맥 OS X에 누구도 절대 열어볼 수 없는 나만의 비밀 저장소 만들기](https://macnews.tistory.com/464)
 - [스크린샷의 파일명을 영어로 바꾸는 법](https://thebetterday.tistory.com/entry/ScreenScapture-File-Name)
+- [맥북 클램쉘 모드](https://tagilog.tistory.com/1064)
 
 ### Development
 - [본격 macOS에 개발 환경 구축하기](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html)
