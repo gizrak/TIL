@@ -12,6 +12,8 @@
 [merge]
     branchdesc = true
     commit = no
+[pager]
+    branch = false
 [alias]
     co = checkout
     br = branch -vv
@@ -24,5 +26,5 @@
     l = log --graph --oneline --decorate --date=relative
     visual = !gitk
 [user]
-    name = gizrak
+    name = Ted Hwang
     email = gizrak@me.com
