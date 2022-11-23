@@ -1,16 +1,10 @@
 ### Get Started
 
-1. [.gitconfig](.gitconfig) 파일을 생성
-   ```bash
-   $ cd ~
-   $ vi .gitconfig
-   ```
-1. [git-diff](git-diff) 파일을 Path 실행 경로에 생성
-   ```bash
-   $ cd bin
-   $ vi git-diff
-   $ chmod +x git-diff
-   ```
+[.gitconfig](.gitconfig) 파일을 생성
+```bash
+$ cd ~
+$ vi .gitconfig
+```
 
 ### Tips
 - 브랜치 이름 변경
@@ -24,3 +18,6 @@
        -c credential.helper=sourcetree \
        fetch --prune origin
   ```
+
+### 참고
+- [편리한 git alias 설정하기](https://johngrib.github.io/wiki/git-alias/)
