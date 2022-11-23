@@ -5,7 +5,7 @@
    $ cd ~
    $ vi .gitconfig
    ```
-1. `git-diff` 파일을 Path 실행 경로에 생성
+1. [git-diff](git-diff) 파일을 Path 실행 경로에 생성
    ```bash
    $ cd bin
    $ vi git-diff
