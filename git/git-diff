@@ -1,0 +1,14 @@
+#!/bin/sh
+
+NOT_EXIST=$1
+EXIST=$2
+
+if [ "$#" -ne 2 ]; then
+  echo "USAGE: ${0##*/} [NOT_EXIST] [EXIST]"
+  echo "  NOT_EXIST - Branch that doesn't exist commits"
+  echo "  EXIST - Branch that exist commits"
+  exit -1
+fi
+
+echo "Commits that exist in ${EXIST} but don't exist in ${NOT_EXIST}"
+git log ${NOT_EXIST}..${EXIST} --format="%h - %ad - %s" --date=format:'%Y-%b-%d'
