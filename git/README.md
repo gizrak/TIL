@@ -1,35 +1,16 @@
-### Conf
-```gitconfig
-[core]
-  excludesfile = /Users/ted/.gitignore_global
-  autocrlf = input
-  editor = /usr/bin/vim
-[commit]
-  template = /Users/ted/.stCommitMsg
-[filter "lfs"]
-  clean = git-lfs clean -- %f
-  smudge = git-lfs smudge -- %f
-  process = git-lfs filter-process
-  required = true
-[merge]
-  branchdesc = true
-  commit = no[user]
-[user]
-  name = Ted Hwang
-  email = ted@tedcode.me
-[alias]
-  co = checkout
-  br = branch -vv
-  ci = commit
-  st = status
-  cp = cherry-pick
-  cl = clone
-  last = log -1 HEAD
-  ll = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
-  l = log --graph --oneline --decorate --date=relative
-  tr = log --graph --oneline --decorate --all
-  visual = !gitk
-```
+### Get Started
+
+1. [.gitconfig](.gitconfig) 파일을 생성
+   ```bash
+   $ cd ~
+   $ vi .gitconfig
+   ```
+1. `git-diff` 파일을 Path 실행 경로에 생성
+   ```bash
+   $ cd bin
+   $ vi git-diff
+   $ chmod +x git-diff
+   ```
 
 ### Tips
 - 브랜치 이름 변경
