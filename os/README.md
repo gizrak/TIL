@@ -1,1 +1,2 @@
 - [동시성, 병렬, 비동기, 논블럭킹과 컨셉들](https://black7375.tistory.com/90)
+- [어떤 분산 파일 시스템을 사용해야 하는가?](https://d2.naver.com/helloworld/258077)
