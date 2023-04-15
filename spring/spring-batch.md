@@ -1,2 +1,0 @@
-- [Spring Batch 가이드](https://jojoldu.tistory.com/324?category=902551)
-- [List of ItemReaders and ItemWriters](https://docs.spring.io/spring-batch/docs/current/reference/html/appendix.html)

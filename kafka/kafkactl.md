@@ -1,4 +1,6 @@
-### kafka 관리 cli kafkactl
+## kafkactl
+
+> kafka 관리 CLI kafkactl
 
 #### 설치
 

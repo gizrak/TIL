@@ -1,0 +1,99 @@
+## .gitconfig
+
+- 파일: `$HOME/.gitconfig`
+- git CLI 기본적인 설정 정보
+
+```properties
+[core]
+    autocrlf = input
+    editor = /usr/bin/vim
+    excludesfile = /Users/gizrak/.gitignore_global
+[commit]
+    template = /Users/gizrak/.stCommitMsg
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[merge]
+    branchdesc = true
+    commit = no
+[pager]
+    branch = false
+[alias]
+    alias = "!# Prints all aliases.;\n\
+        git config --list \
+        | egrep '^alias.+' \
+        | sed -e 's/^alias\\.//' \
+        | sed -e 's/^[^=]*=/\\'$'\\033[31m&\\033[(B\\033[m/' \
+        | column -t -s'=' \
+        | sed 's/!#* *//; s/;$//' \
+        | cut -c1-85"
+    a = "!git diff-select | xargs git add"
+    bb = "! # Branch tools. Type 'git bb help' ; \n\
+        f() { \n\
+            if [ $# = 0 ]; then \
+                git checkout $(git branch -vv | grep -v '^\\*' | fzf | awk '{print $1}'); \
+            elif [ $1 = 'help' ]; then \
+                echo 'git bb           : Select and checkout branch'; \
+                echo 'git bb c, clean  : Clean all merged branches'; \
+                echo 'git bb d, D      : Delete seleted branches(D: force)'; \
+                echo 'git bb l, list   : List branches excluding the current branch'; \
+                echo 'git bb m, merged : List merged branches excluding the current and master branches'; \
+            elif [ $1 = 'd' -o $1 = 'D' ]; then \
+                git branch -$1 $(git bb list | fzf -m); \
+            elif [ $1 = 'clean' -o $1 = 'c' ]; then \
+                git branch -d $(git bb merged); \
+            elif [ $1 = 'list' -o $1 = 'l' ]; then \
+                git branch | grep -v '^\\*'; \
+            elif [ $1 = 'merged' -o $1 = 'm' ]; then \
+                git branch --merged | grep -v '^\\*\\|\\<master$'; \
+            else \
+                git bb help; \
+            fi; \
+        }; f"
+    br = branch -vv
+    bselect = "! # select branch with preview; \n\
+        f() { \
+            _height=$(stty size | awk '{print $1}');\
+            git branch | egrep -v '^\\*' | fzf --preview \"git l {1} | head -n $_height\"; \
+        }; f"
+    ch = "!git checkout $(git bselect)"
+    cm = commit
+    co = checkout
+    cp = cherry-pick
+    cur = "!git branch | awk '/^\\*/{print $2}'"
+    diff-branch = "!# Show branch commit differencs.;\n\
+                       git log $1..$2 \
+                           --format='%h - %ad - %s' \
+                           --date=format:'%Y-%b-%d' "
+    diff-info = "! # get diff info;\n\
+        fileA=/tmp/git-s-$(uuidgen); \
+        fileB=/tmp/git-diff-$(uuidgen); \
+        git s | awk '{print $2,$1}' > $fileA; \
+        git diff --numstat | awk '{print $3,$1,$2}' > $fileB; \
+        join -t' ' -a 1 $fileA $fileB | awk '{print $2, \"(+\"$3 \",-\"$4\")\", $1}' | sed 's/(+,-)/./' | column -t -s' ' ; \
+        rm -f $fileA $fileB; \
+    "
+    diff-select = "! # add files with fzf preview diffs; \n\
+        f() { \
+            _height=$(stty size | awk '{print $1}');\
+            git diff-info \
+            | fzf -m --header \"$(git diff --shortstat)\" --preview \
+                \"if [[ {1} == '??' ]]; then cat {3}; else git diff {3}; fi \
+                | head -n $_height \
+                | pygmentize\" \
+            | awk '{print $3}'; \
+        }; f"
+    fetch = "!git fetch --all --prune"
+    last = log -1 HEAD
+    ll = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+    l = log --graph --oneline --decorate --date=relative
+    s = status -s
+    st = status
+    sync = "!f() { git fetch $1 && git reset --hard $1/$(git cur); }; f"
+    visual = !gitk
+[user]
+    name = Ted Hwang
+    email = gizrak@me.com
+```
