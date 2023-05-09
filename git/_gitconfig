@@ -85,7 +85,8 @@
                 | pygmentize\" \
             | awk '{print $3}'; \
         }; f"
-    fetch = "!git fetch --all --prune"
+    update = "!git fetch --all --prune; \
+              git merge origin"
     last = log -1 HEAD
     ll = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
     l = log --graph --oneline --decorate --date=relative
