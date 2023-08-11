@@ -10,6 +10,13 @@
 </table>
 </center>
 
+### Shell
+
+- [zsh theme - powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- [zsh plugin - autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh plugin - completions](https://github.com/zsh-users/zsh-completions)
+- [zsh plugin - syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
 ### Tips
 
 - [동시성, 병렬, 비동기, 논블럭킹과 컨셉들](https://black7375.tistory.com/90)
