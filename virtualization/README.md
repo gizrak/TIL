@@ -1,0 +1,1 @@
+- [[Qemu + KVM] Qemu와 KVM의 개념 - 에뮬레이션과 가상화](https://blog.naver.com/alice_k106/221179347223)
