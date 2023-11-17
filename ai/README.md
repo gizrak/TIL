@@ -1,0 +1,1 @@
+- [딥 러닝과 머신 러닝의 비교](https://www.zendesk.kr/blog/machine-learning-and-deep-learning/)
