@@ -4,3 +4,7 @@
 ### Autonomous Driving
 
 - [MBPTrack Tutorial - SOTA 3D Point Cloud Object Tracking in 2023 for LiDAR & Radar](https://supervisely.com/blog/mbptrack-point-cloud-3d-object-tracking/)
+
+### Data
+
+- [데이터 엔지니어가 하는 일은?](https://www.codestates.com/blog/content/데이터엔지니어로드맵)
