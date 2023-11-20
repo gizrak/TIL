@@ -9,3 +9,4 @@
 ### Data
 
 - [데이터 엔지니어가 하는 일은?](https://www.codestates.com/blog/content/데이터엔지니어로드맵)
+- [Data Engineer Roadmap](https://github.com/datastacktv/data-engineer-roadmap)
