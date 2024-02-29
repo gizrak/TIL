@@ -17,11 +17,11 @@
 |데이터 처리 방식|합성곱과 풀링 연산|과거 정보를 현재 상태에 반영\n(반복적인 hidden state)|
 |적용 분야|컴퓨터 비전, 이미지 분류, 객체 탐지|자연어 처리, 음성 인식|
 
-▶ 심층 신경망(DNN, Deep Neural Network)
-▶ 합성곱 신경망(CNN, Convoultional Neural Network)
-▶ 순환 신경망(RNN, Recurrent Neural Network)
-▶ 제한 볼츠만 머신(RBM, Restricted Boltzmann Machine)
-▶ 심층 신뢰 신경망(DBN, Deep Belief Network)
+- 심층 신경망(DNN, Deep Neural Network)
+- 합성곱 신경망(CNN, Convoultional Neural Network)
+- 순환 신경망(RNN, Recurrent Neural Network)
+- 제한 볼츠만 머신(RBM, Restricted Boltzmann Machine)
+- 심층 신뢰 신경망(DBN, Deep Belief Network)
 
 ### Fine Tuning
 
@@ -38,3 +38,5 @@
 - [딥러닝 분야별 SOTA(State of the art) 브라우저](https://paperswithcode.com/sota?fbclid=IwAR16wLSr-BAcl-eZAwMVIHdsmpgBF6dN4ETR5kRGg02f_5xBBOlN6uMapo4)
 - [보틀넥 피처, 파인 튜닝](https://haandol.github.io/2016/12/25/define-bottleneck-feature-and-fine-tuning.html)
 - [파라미터(Parameter)와 하이퍼파라미터(Hyperparameter)](https://leeezxxswd.tistory.com/27)
+- [퓨샷러닝/제로샷러닝/원샷러닝/트랜스포머|작성자 레드블루](https://blog.naver.com/PostView.naver?blogId=dh0985&logNo=222321560055&parentCategoryNo=&categoryNo=11)
+
