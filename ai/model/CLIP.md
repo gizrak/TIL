@@ -21,6 +21,12 @@
 ### 사용 예시
 
 - CLIP을 사용하려면 미리 훈련된 모델 (예: ViT-B/32)을 로드하고 이미지와 텍스트를 인코딩 가능
+- 의존성 설치
+  ```bash
+  $ pip install torch pillow
+  $ pip install ftfy regex tqdm
+  $ pip install git+https://github.com/openai/CLIP.git
+  ```
 - CLIP을 사용하는 Python 코드 예시
   ```python
   import torch
