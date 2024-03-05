@@ -39,4 +39,4 @@
 - [보틀넥 피처, 파인 튜닝](https://haandol.github.io/2016/12/25/define-bottleneck-feature-and-fine-tuning.html)
 - [파라미터(Parameter)와 하이퍼파라미터(Hyperparameter)](https://leeezxxswd.tistory.com/27)
 - [퓨샷러닝/제로샷러닝/원샷러닝/트랜스포머|작성자 레드블루](https://blog.naver.com/PostView.naver?blogId=dh0985&logNo=222321560055&parentCategoryNo=&categoryNo=11)
-
+- [딥러닝의 Quantization (양자화)와 Quantization Aware Training](https://gaussian37.github.io/dl-concept-quantization/)
