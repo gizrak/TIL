@@ -12,6 +12,7 @@
 
 ### Shell
 
+- [oh-my-zsh](https://ohmyz.sh/)
 - [zsh theme - powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [zsh plugin - autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh plugin - completions](https://github.com/zsh-users/zsh-completions)
