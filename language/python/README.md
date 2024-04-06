@@ -35,21 +35,8 @@ Project/
 - `/project`: 소스 코드
 - `/tests`: 테스트 코드
 
-#### 관련 도서
-
--   파이썬을 여행하는 히치하이커를 위한 안내서
-
 #### 참조 링크
 
-- [https://docs.python-guide.org/writing/structure/](https://docs.python-guide.org/writing/structure/)
-    - 한국어: [https://python-guide-kr.readthedocs.io/ko/latest/](https://python-guide-kr.readthedocs.io/ko/latest/)
-- [https://stackoverflow.com/a/193181](https://stackoverflow.com/a/193181)
-
-### 파이콘
-
-- [파이콘 한국 2014](https://archive.pycon.kr/2014/programs/list/)
-- [파이콘 한국 2015](https://archive.pycon.kr/2015/programs/list/)
-- [파이콘 APAC 2016](https://archive.pycon.kr/2016apac/program/list/)
-- [파이콘 한국 2017](https://archive.pycon.kr/2017/)
-- [파이콘 한국 2018](https://archive.pycon.kr/2018/)
-- [파이콘 한국 2019](https://archive.pycon.kr/2019/)
+- [파이썬을 여행하는 히치하이커를 위한 안내서!](https://python-guide-kr.readthedocs.io/ko/latest/)
+- [프로젝트 구성하기](https://python-guide-kr.readthedocs.io/ko/latest/writing/structure.html)
+- [What is the best project structure for a Python application?](https://stackoverflow.com/a/193181)
