@@ -9,3 +9,4 @@
 - [Spring Batch 가이드](https://jojoldu.tistory.com/324?category=902551)
 - [List of ItemReaders and ItemWriters](https://docs.spring.io/spring-batch/docs/current/reference/html/appendix.html)
 - [배민 API GATEWAY – spring cloud zuul 적용기](https://techblog.woowahan.com/2523/)
+- [A 'simple' way to implement Swagger in a Spring MVC application](https://stackoverflow.com/questions/26720090/a-simple-way-to-implement-swagger-in-a-spring-mvc-application)
