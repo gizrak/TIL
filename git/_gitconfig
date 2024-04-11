@@ -53,6 +53,7 @@
             fi; \
         }; f"
     br = branch -vv
+    brc = "!git branch --merged | egrep -v '(^\\*|master|main|dev)' | xargs git branch -d"
     bselect = "! # select branch with preview; \n\
         f() { \
             _height=$(stty size | awk '{print $1}');\
