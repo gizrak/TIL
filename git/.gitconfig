@@ -7,9 +7,9 @@
 [core]
     autocrlf = input
     editor = /usr/bin/vim
-    excludesfile = /Users/gizrak/.gitignore_global
+    excludesfile = /home/user/.gitignore_global
 [commit]
-    template = /Users/gizrak/.stCommitMsg
+    template = /home/user/.stCommitMsg
 [filter "lfs"]
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge -- %f
@@ -97,6 +97,10 @@
               git merge origin"
     visual = !gitk
 [user]
-    name = Ted Hwang
-    email = gizrak@me.com
+        name = Ted Hwang
+        email = gizrak@me.com
+[credential]
+        helper = store
+[init]
+        defaultBranch = main
 ```
